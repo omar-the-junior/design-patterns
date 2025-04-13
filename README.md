@@ -7,65 +7,106 @@ Welcome to the Design Patterns Learning Repository! 👋 This repository is desi
 This repository contains examples of common design patterns organized into three main categories:
 
 1. **Creational Patterns** - Patterns about object creation
-   - Factory Pattern
-   - Singleton Pattern
+   - [Factory Pattern](src/Creational/Factory) - Creates objects without exposing creation logic
+   - [Singleton Pattern](src/Creational/Singleton) - Ensures a class has only one instance
    - (More coming soon!)
 
 2. **Structural Patterns** - Patterns about object relationships
-   - (Coming soon!)
+   - [Proxy Pattern](src/Structural/Proxy) - Controls access to objects
+   - (More coming soon!)
 
 3. **Behavioral Patterns** - Patterns about object communication
-   - (Coming soon!)
+   - [State Pattern](src/Behavioral/State) - Allows an object to alter its behavior when its internal state changes
+   - (More coming soon!)
 
 ## Getting Started 🚀
 
-### What You Need
+### Prerequisites 🛠️
 
-- Java installed on your computer
-- Visual Studio Code (recommended)
+- Java Development Kit (JDK) installed on your computer
+- Visual Studio Code (recommended) or your preferred IDE
 - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) extension for VS Code to view the design diagrams
 
-### How to Use This Repository
+### Repository Structure 📂
 
-1. **Browse the Patterns**: 
-   - Each pattern is in its own folder under `src/Creational`, `src/Structural`, or `src/Behavioral`
-   - Each pattern folder has:
-     - A `README.md` explaining the pattern
-     - Java files with the implementation
-     - A main class showing how to use the pattern
+Each design pattern is organized as follows:
 
-2. **Learning Path**:
-   - Read the pattern's README.md first
-   - Look at the diagrams to understand the structure
-   - Check the code implementation
-   - Run the example to see it in action
+```
+pattern-name/
+├── README.md           # Pattern explanation and diagrams
+├── *Main.java         # Example usage
+└── Implementation files
+```
 
-### Running the Examples
+### How to Use This Repository 📖
 
-To run any example:
+1. **Choose a Pattern**: 
+   - Start with simpler patterns like Singleton or Factory
+   - Each pattern folder contains everything you need to understand it
 
-1. Navigate to the pattern's folder
-2. Look for the main class (ends with "Main.java")
-3. Compile and run using your preferred method:
-   - Using VS Code's Run button
-   - Or via terminal: `java src/Creational/PatternName/PatternNameMain.java`
+2. **Study the Pattern**:
+   - Read the README.md first
+   - Understand the problem it solves
+   - Look at the diagrams
+   - Review the code implementation
+   - Run the example
 
-## Structure of Each Pattern 📖
+3. **Run the Examples**:
+   ```bash
+   # From the root directory:
+   javac src/pattern-category/pattern-name/*.java
+   java src/pattern-category/pattern-name/PatternNameMain
+   ```
 
-For each design pattern, you'll find:
+## Pattern Documentation Structure 📑
 
-- **Problem Description**: What issue does this pattern solve?
-- **Real-World Example**: A simple, everyday example to help you understand
-- **Use Case**: When to use this pattern
-- **Key Characteristics**: Important features of the pattern
-- **Code Example**: Simple implementation in Java
-- **Visual Diagram**: Easy-to-understand visual representation
+Each pattern's README includes:
+
+1. **Problem Description** 🤔
+   - Clear explanation of the problem
+   - Why traditional approaches aren't ideal
+
+2. **Real-World Example** 🌍
+   - Simple, everyday analogy
+   - Makes the pattern relatable
+
+3. **Use Case** 💡
+   - When to use the pattern
+   - When not to use it
+
+4. **Key Characteristics** ✨
+   - Main features
+   - Benefits and potential drawbacks
+
+5. **Implementation** 💻
+   - Code examples with comments
+   - Mermaid diagrams showing relationships
+
+## Currently Implemented Patterns 🎯
+
+### Creational
+- ✅ Factory Pattern - Creating objects without specifying exact class
+- ✅ Singleton Pattern - Single instance across application
+
+### Structural
+- ✅ Proxy Pattern - Controlling access to objects
+
+### Behavioral
+- ✅ State Pattern - Managing object state transitions
 
 ## Need Help? ❓
 
-- Start with the simpler patterns first (like Singleton and Factory)
-- Each example is kept as simple as possible
-- Read the README in each pattern's folder for detailed explanations
-- Comments in the code explain what each part does
+- Each example uses simple, real-world scenarios
+- Code is thoroughly commented
+- READMEs include detailed explanations
+- Start with the basics and progress gradually
 
-Happy learning! 🎉
+## Contributing 🤝
+
+Feel free to:
+- Suggest improvements
+- Add new patterns
+- Fix bugs
+- Improve documentation
+
+Happy Learning! 🎉
