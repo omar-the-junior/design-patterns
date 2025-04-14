@@ -17,6 +17,7 @@ This repository contains examples of common design patterns organized into three
    - [Proxy Pattern](src/Structural/Proxy) - Controls access to objects
    - [Adapter Pattern](src/Structural/Adapter) - Allows incompatible interfaces to work together
    - (More coming soon!)
+   - [Bridge Pattern](src/Structural/Bridge) - Separates abstraction from implementation
 
 3. **Behavioral Patterns** - Patterns about object communication
    - [State Pattern](src/Behavioral/State) - Allows an object to alter its behavior when its internal state changes
@@ -123,6 +124,7 @@ This comprehensive documentation ensures that each pattern is:
 ### Structural
 - ✅ Proxy Pattern - Controlling access to objects
 - ✅ Adapter Pattern - Allowing incompatible interfaces to work together
+- ✅ Bridge Pattern - Separating abstraction from implementation
 
 ### Behavioral
 - ✅ State Pattern - Managing object state transitions
