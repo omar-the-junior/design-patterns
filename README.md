@@ -10,6 +10,7 @@ This repository contains examples of common design patterns organized into three
    - [Factory Pattern](src/Creational/Factory) - Creates objects without exposing creation logic
    - [Singleton Pattern](src/Creational/Singleton) - Ensures a class has only one instance
    - [Builder Pattern](src/Creational/Builder) - Builds complex objects step by step
+   - [Prototype Pattern](src/Creational/Prototype) - Creates new objects by cloning an existing object
    - (More coming soon!)
 
 2. **Structural Patterns** - Patterns about object relationships
@@ -115,6 +116,8 @@ This comprehensive documentation ensures that each pattern is:
 ### Creational
 - ✅ Factory Pattern - Creating objects without specifying exact class
 - ✅ Singleton Pattern - Single instance across application
+- ✅ Builder Pattern - Building complex objects step by step
+- ✅ Prototype Pattern - Creating objects by cloning
 
 ### Structural
 - ✅ Proxy Pattern - Controlling access to objects
